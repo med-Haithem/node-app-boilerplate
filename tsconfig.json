@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["esnext"],
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@app": ["./app.ts"],
+      "@utils/*": ["utils/*"],
+      "@features/*": ["features/*"],
+      "@config": ["config"],
+      "@middlewares/*": ["middlewares/*"]
+    }
+  }
+}
